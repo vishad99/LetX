@@ -1,0 +1,80 @@
+#head-navbar {
+  width: 100%;
+  white-space: nowrap;
+  display: inline-block;
+  overflow: hidden;
+}
+.nav>li {
+  display: inline-block;
+  width:initial;
+  float:left;
+  white-space: nowrap;
+}
+.nav { 
+  display: inline-block;
+}
+
+@media screen and (max-width:768px)
+{
+  .nav.navbar-nav.pull-right { float:none !important; }
+}
+
+body{
+  background-color: #EDECEC;
+  opacity: 70%;
+}
+
+h5{
+  margin-left: 200px;
+}
+
+h6{
+  color: #393636;
+}
+
+li{
+  margin-right: 40px;
+  }
+
+.nav.navbar-nav.pull-right li a {
+  color:#666060;
+}
+
+.nav.navbar-nav li a{
+  color:#666060;
+}
+
+.readbooks{
+  text-align: center;
+  margin-top: 30px;
+  color:#8A8383;
+}
+
+.author{
+  color: #9F9D9D
+}
+
+.checked {
+    color: orange;
+}
+
+.container-fluid{
+  margin-top: 20px;
+}
+
+.box-1{
+background-color: #AC2F2F;
+}
+
+.box{
+  background-color: white;
+}
+
+.col-sm-5{
+  margin-top: 100px;
+  padding: auto;
+}
+
+.col-sm-2{
+  margin-top: 50px;
+}
